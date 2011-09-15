@@ -1,0 +1,9 @@
+syntax: glob
+bin
+obj
+profiles
+.objs
+*.cfg
+*.depend
+CosmicHeist
+highscores
