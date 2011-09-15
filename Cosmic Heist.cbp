@@ -89,6 +89,9 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Cosmic Heist.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
 		<Unit filename="MersenneTwister.h" />
 		<Unit filename="ai_keys.h" />
 		<Unit filename="background_layer.cpp" />
