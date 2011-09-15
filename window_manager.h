@@ -1,3 +1,6 @@
+/* Copyright (c) 2011 Kevin Wells */
+/* Cosmic Heist may be freely redistributed.  See license for details. */
+
 #ifndef window_manager_h
 #define window_manager_h
 

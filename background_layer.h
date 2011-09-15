@@ -1,3 +1,6 @@
+/* Copyright (c) 2011 Kevin Wells */
+/* Cosmic Heist may be freely redistributed.  See license for details. */
+
 #ifndef background_layer_h
 #define background_layer_h
 

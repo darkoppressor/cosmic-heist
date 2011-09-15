@@ -1,3 +1,6 @@
+/* Copyright (c) 2011 Kevin Wells */
+/* Cosmic Heist may be freely redistributed.  See license for details. */
+
 #include "game_window.h"
 #include "world.h"
 #include "quit.h"

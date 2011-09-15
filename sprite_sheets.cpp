@@ -1,3 +1,6 @@
+/* Copyright (c) 2011 Kevin Wells */
+/* Cosmic Heist may be freely redistributed.  See license for details. */
+
 #include "sprite_sheets.h"
 #include "world.h"
 #include "render.h"
