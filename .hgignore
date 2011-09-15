@@ -3,7 +3,8 @@ bin
 obj
 profiles
 .objs
-*.cfg
-*.depend
 CosmicHeist
+*.depend
+Thumbs.db
+*.cfg
 highscores
