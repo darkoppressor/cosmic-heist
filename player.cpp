@@ -54,7 +54,7 @@ void Player::reset(){
 
     score=0;
 
-    difficulty=25;
+    difficulty=0;
 
     existing_explosions=0;
 

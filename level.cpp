@@ -145,7 +145,7 @@ void Level::new_level(int difficulty){
 
     //Create enemy ships.
     ships.clear();
-    int number_of_ships=level_x*level_y/(500.0);
+    int number_of_ships=level_x*level_y/(350.0);
     number_of_ships+=difficulty*random_range(5,10);
     for(int i=0;i<number_of_ships;i++){
         int random=random_range(0,99);
