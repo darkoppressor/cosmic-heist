@@ -9,22 +9,23 @@
 		<Build>
 			<Target title="Release-Windows">
 				<Option platforms="Windows;" />
-				<Option output="bin\Release\CosmicHeist.exe" prefix_auto="1" extension_auto="0" />
-				<Option working_dir="" />
-				<Option object_output="obj\Release\" />
-				<Option type="5" />
+				<Option output="bin/Release/CosmicHeist.exe" prefix_auto="1" extension_auto="0" />
+				<Option working_dir="./" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-fexpensive-optimizations" />
 					<Add option="-O2" />
 					<Add option="-w" />
-					<Add directory="..\..\MinGW\include" />
-					<Add directory="..\..\SDL\include\SDL" />
-					<Add directory="..\..\SDL\SDL_image\include" />
-					<Add directory="..\..\SDL\SDL_gfx\include" />
-					<Add directory="..\..\SDL\SDL_mixer\include" />
-					<Add directory="..\..\glew\include\GL" />
-					<Add directory="..\..\Boost" />
+					<Add option="-fpermissive" />
+					<Add directory="../../MinGW/include" />
+					<Add directory="../../SDL/include/SDL" />
+					<Add directory="../../SDL/SDL_image/include" />
+					<Add directory="../../SDL/SDL_gfx/include" />
+					<Add directory="../../SDL/SDL_mixer/include" />
+					<Add directory="../../glew/include/GL" />
+					<Add directory="../../Boost" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -41,13 +42,13 @@
 					<Add library="..\..\SDL\SDL_image\lib\SDL_image.lib" />
 					<Add library="..\..\SDL\SDL_gfx\lib\libSDL_gfx.a" />
 					<Add library="..\..\SDL\SDL_mixer\lib\SDL_mixer.lib" />
-					<Add library="..\..\Boost\stage\lib\libboost_system-mgw45-mt-1_49.a" />
-					<Add library="..\..\Boost\stage\lib\libboost_filesystem-mgw45-mt-1_49.a" />
-					<Add library="..\..\Boost\stage\lib\libboost_iostreams-mgw45-mt-1_49.a" />
-					<Add library="..\..\Boost\stage\lib\libboost_zlib-mgw45-mt-1_49.a" />
-					<Add directory="..\..\SDL\lib" />
-					<Add directory="..\..\glew\lib" />
-					<Add directory="..\..\Boost\stage\lib" />
+					<Add library="..\..\Boost\stage\lib\libboost_system-mgw47-mt-1_51.a" />
+					<Add library="..\..\Boost\stage\lib\libboost_filesystem-mgw47-mt-1_51.a" />
+					<Add library="..\..\Boost\stage\lib\libboost_iostreams-mgw47-mt-1_51.a" />
+					<Add library="..\..\Boost\stage\lib\libboost_zlib-mgw47-mt-1_51.a" />
+					<Add directory="../../SDL/lib" />
+					<Add directory="../../glew/lib" />
+					<Add directory="../../Boost/stage/lib" />
 				</Linker>
 			</Target>
 			<Target title="Release-Linux">
@@ -60,10 +61,10 @@
 					<Add option="-fexpensive-optimizations" />
 					<Add option="-O3" />
 					<Add option="-w" />
-					<Add directory="\usr\include\SDL\" />
-					<Add directory="\usr\include\" />
-					<Add directory="\usr\include\GL\" />
-					<Add directory="..\..\boost" />
+					<Add directory="/usr/include/SDL/" />
+					<Add directory="/usr/include/" />
+					<Add directory="/usr/include/GL/" />
+					<Add directory="../../boost" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -80,8 +81,8 @@
 					<Add library="..\..\boost\stage\lib\libboost_system.so" />
 					<Add library="..\..\boost\stage\lib\libboost_filesystem.so" />
 					<Add library="..\..\boost\stage\lib\libboost_iostreams.so" />
-					<Add directory="\usr\lib64\" />
-					<Add directory="..\..\boost\stage\lib" />
+					<Add directory="/usr/lib64/" />
+					<Add directory="../../boost/stage/lib" />
 				</Linker>
 			</Target>
 		</Build>
