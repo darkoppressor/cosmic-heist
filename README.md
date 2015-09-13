@@ -1,5 +1,6 @@
 # cosmic-heist
 A fast-paced pilot-em-up in space!
+http://cheeseandbacon.org/cosmic-heist/
 
 Cosmic Heist is an arcade-style game which might look like a shmup, but is really focused on flying (you have no weapons).
 
