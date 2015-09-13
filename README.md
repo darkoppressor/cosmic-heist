@@ -2,6 +2,7 @@
 A fast-paced pilot-em-up in space!
 
 Cosmic Heist is an arcade-style game which might look like a shmup, but is really focused on flying (you have no weapons).
+
 Features:
 * Exciting arcade-style action!
 * Pilot a stolen starship!
